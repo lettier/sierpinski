@@ -1,0 +1,158 @@
+/*
+ (C) 2013 David Lettier
+ lettier.com
+*/
+
+body
+{
+
+  background: rgb(44.2, 46, 76.8);
+  background: linear-gradient(0deg, rgba(44.2, 46, 76.8,1) 0%, rgba(104.8, 71.3, 60.3,1) 100%);
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+}
+
+kbd
+{
+
+  background-color: rgba(92.5%, 48.6%, 21.6%, 1.0);
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+.subdivision_text_box
+{
+
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: -30px;
+	top: 95px;
+	z-index: 3;
+	font-family: sans-serif;
+	font-size: 2em;
+	color: #fff;
+	transform: rotate( 90deg );
+	-ms-transform: rotate( 90deg ); /* IE 9 */
+	-webkit-transform: rotate( 90deg ); /* Safari and Chrome */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.up_button
+{
+
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	z-index: 3;
+	font-family: sans-serif;
+	font-size: 80px;
+	cursor: pointer;
+	color: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.down_button
+{
+
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 10px;
+	top: 90px;
+	z-index: 3;
+	font-family: sans-serif;
+	font-size: 80px;
+	cursor: pointer;
+	color: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.logo_box
+{
+
+	margin: 0px;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	width: auto;
+	height: auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.logo
+{
+
+	margin: 0px;
+	border: 0px;
+	width: 300px;
+	height: 300px;
+	opacity: 0.8;
+	cursor: pointer;
+	filter: alpha( opacity = 80 );
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.instruction_text_box
+{
+
+	margin: 0px;
+	padding: 10px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: auto;
+	height: auto;
+	z-index: 4;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #fff;
+	background: rgba( 10, 10, 10, 0.5 );
+	opacity: 1.0;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
